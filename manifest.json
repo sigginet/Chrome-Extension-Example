@@ -45,8 +45,8 @@
         "default": "Alt+Shift+A"
       }
     }
-  }
-  "chrome_url_overrides" : {
-    "pageToOverride": "home.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "home.html"
   },
 }
