@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Asana Extension for Chrome",
+  "name": "Asana GTI Dashboard for Chrome",
   "version": "1.0.3",
-  "description": "Quickly add tasks to Asana from any web page.",
+  "description": "Shows you a task list of the developers.",
   "icons": {
     "128": "icon128.png",
     "48": "icon48.png",
@@ -16,7 +16,7 @@
     "default_popup": "popup.html"
   },
   "background": {
-    "persistent": true,
+    "persistent": false,
     "scripts": [
       "jquery-1.7.1.min.js",
       "asana.js",
@@ -39,13 +39,6 @@
     "*://use.typekit.net/*"
   ],
   "content_security_policy": "script-src 'self' https://use.typekit.net; object-src 'self'",
-  "commands": {
-    "_execute_browser_action": {
-      "suggested_key": {
-        "default": "Alt+Shift+A"
-      }
-    }
-  },
   "chrome_url_overrides": {
     "newtab": "home.html"
   },
